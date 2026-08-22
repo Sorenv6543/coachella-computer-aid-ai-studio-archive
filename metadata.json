@@ -1,0 +1,8 @@
+{
+  "name": "Coachella Computer Aid",
+  "description": "Patient, friendly technology support, workshops, and digital literacy resources for seniors and families in the Coachella Valley.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+*.swp
+
+# Obsidian vault-local state (plugins, workspace layout, cache) — not project content
+docs/.obsidian/
+
+# Claudian plugin session state — not project content
+docs/.claudian/
+.env
+# Node modules
+node_modules/
+
+# Claude Code session-local runtime state — not project content
+.claude/scheduled_tasks.lock

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FDF6EC;
+    color: #343434;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom scrollbar and accessibility outlines */
+:focus-visible {
+  outline: 3px solid #B95E23;
+  outline-offset: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: #B95E23;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(185, 94, 35, 0.4);
+  border: 3px solid #FFFFFF;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: #B95E23;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(185, 94, 35, 0.4);
+  border: 3px solid #FFFFFF;
+}
