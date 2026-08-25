@@ -1,0 +1,8 @@
+{
+  "name": "Remix coachella-computer-aid-ai-studio",
+  "description": "Imported from GitHub: Sorenv6543/coachella-computer-aid-ai-studio",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
